@@ -63,6 +63,10 @@ Decentralized finance (#defi) is the movement that leverages open source softwar
     - [Stronghold](https://stronghold.co/stronghold-usd/) (closed source, [white paper](https://docsend.com/view/gg3p9ce)) - Stellar-based token that provides a KYC/AML compliant USD stablecoin
     - [White Standard](https://thewhitecompanyus.com/white-standard/) ([source code](https://github.com/thewhitecompany/whitestandard#), [white paper](https://thewhitecompanyus.com/white-paper)) - Stellar-based tokens that provide stablecoins for a variety of currencies
 - Collateralized
+
+  - BitShares
+    - [bitAssets / Market-Pegged Assets](https://github.com/bitshares-foundation/whitepapers/raw/master/pdfs/bitshares-smartcoins.pdf) - community controlled, BTS collateralized stablecoins for USD, EUR, CNY and commodities, such as GOLD and SILVER
+    - privatized bitAssets - collateralized stablecoins controlled by businesses
   - [Celo](https://celo.org) ([white paper](https://storage.googleapis.com/celo_whitepapers/Celo__A_Multi_Asset_Cryptographic_Protocol_for_Decentralized_Social_Payments.pdf)) - Over-collateralized stablecoin targeting the unbanked using its own distributed ledger
   - Ethereum
     - [Dai Stablecoin from Maker](https://makerdao.com/dai) ([source code](https://github.com/makerdao), [white paper](https://makerdao.com/whitepaper/)) - Stablecoin based on smart contracts for creating collateralized debt positions
@@ -86,6 +90,8 @@ Decentralized finance (#defi) is the movement that leverages open source softwar
   - [Lendroid](https://www.lendroid.com) ([source code](https://github.com/lendroidproject), [white paper](https://lendroid.com/assets/whitepaper-margin-trading.pdf)) - Protocol for decentralized lending, margin trading, and short selling
   - [Marble](https://marble.org) ([source code](https://github.com/marbleprotocol)) - "Flash lending" protocol for borrowing "Ether and ERC20 tokens to take advantage of arbitrage opportunities on Ethereum"
   - [Ripio](https://ripiocredit.network/) ([source code](https://github.com/ripio/rcn-network), [white paper](https://ripiocredit.network/wp/RCN%20Whitepaper%20ENG.pdf)) - P2P global credit network protocol based on cosigned smart contracts
+- BitShares
+  - [BSIP70: P2P lending market](https://github.com/bitshares/bsips/issues/170) - currently in decelopment
 
 <a name="derivative-protocols" />
 
@@ -102,6 +108,9 @@ Decentralized finance (#defi) is the movement that leverages open source softwar
   - [UMA](https://umaproject.org) ([source code](https://github.com/umaprotocol), [white paper](https://umaproject.org/UMA-whitepaper.pdf)) - Protocol that allows any two counterparties to design and create their own financial contracts that are secured with economic incentives alone, making them self-enforcing and "universally accessible"
   - [Veil](https://veil.co) ([source code](https://github.com/veilco)) - Peer-to-peer prediction market and derivatives platform built on top of Augur, 0x, and Ethereum
 
+- BitShares:
+   - Prediction Market assets that can be collateralized by BTS and settled by oracles
+   
 <a name="bundling-protocols" />
 
 ## Bundling Protocols
@@ -129,6 +138,9 @@ Decentralized finance (#defi) is the movement that leverages open source softwar
   - [Abacus](https://abacusfi.com/) ([soure code](https://github.com/abacusfi), [white paper](https://github.com/abacusfi/whitepaper/blob/master/whitepaper.pdf)) - Protocol for permissioned tokens
 - [Stellar](https://www.stellar.org/) ([source code](https://github.com/stellar/stellar-core), [docs](https://www.stellar.org/developers/guides/concepts/assets.html)) - Stellar has first-party support for issuing arbitrary tokens
 
+- [BitShares](https://bitshares.org)
+  - [Use Issued Assets (UIA)]((https://bitshares.org/technology/user-issued-assets/)) - part of the core protocol
+
 <a name="kyc-aml-identity" />
 
 ## KYC/AML/Identity
@@ -137,6 +149,9 @@ Decentralized finance (#defi) is the movement that leverages open source softwar
   - [Project Hydro](https://projecthydro.org/) ([source code](https://github.com/HydroBlockchain), [white paper](https://github.com/HydroBlockchain/hydro-docs)) - Decentralized ecosystem using cutting-edge cryptography to secure user accounts, identities, and transactions
   - [SelfKey](https://selfkey.org) ([source code](https://github.com/SelfKeyFoundation/Identity-Wallet), [white paper](https://selfkey.org/selfkey-whitepaper)) - "Self-sovereign" identity management system that aims to integrate with various financial services
   - [Wyre](https://www.sendwyre.com) ([source code](https://github.com/sendwyre), [Medium post](https://blog.sendwyre.com/announcing-the-wyre-sdk-on-ramps-off-ramps-in-under-10-lines-of-code-f2b127eccb5d)) - Compliance SDK that mints ERC-721 tokens to the addresses of verified users
+
+- [BitShares](https://bitshares.org)
+  - [Named Accounts](https://bitshares.org/technology/named-accounts/) with asset white-/black-listing
 
 
 <a name="applications-tools" />
